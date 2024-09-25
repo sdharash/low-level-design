@@ -1,0 +1,47 @@
+public class Bill extends BaseModel {
+    private Date exitTime;
+    private Operator operator;
+    private int amount;
+    private Ticket ticket;
+    private Gate gate;
+
+    public Date getExitTime() {
+        return exitTime;
+    }
+
+    public void setExitTime(Date exitTime) {
+        this.exitTime = exitTime;
+    }
+
+    public Operator getOperator() {
+        return operator;
+    }
+
+    public void setOperator(Operator operator) {
+        this.operator = operator;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
+
+    public Gate getGate() {
+        return gate;
+    }
+
+    public void setGate(Gate gate) {
+        this.gate = gate;
+    }
+}
